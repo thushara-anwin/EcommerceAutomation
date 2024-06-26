@@ -22,8 +22,24 @@ homepage_title ="nopCommerce demo store"
 
 #product_category_locators
 link_computers= (By.PARTIAL_LINK_TEXT,"Computers")
+link_desktops = (By.PARTIAL_LINK_TEXT,"Desktops")
+link_notebooks = (By.PARTIAL_LINK_TEXT,"notebooks")
+
+
+
 link_electronics= (By.PARTIAL_LINK_TEXT,"Electronics")
+link_camera_and_photo = (By.PARTIAL_LINK_TEXT,"Camera & photo")
+link_cell_phones =(By.PARTIAL_LINK_TEXT,"Cell phones")
+link_electronics_others =(By.PARTIAL_LINK_TEXT,"Cell phones")
+
+
 link_apparel= (By.PARTIAL_LINK_TEXT,"Apparel")
+link_shoes = (By.PARTIAL_LINK_TEXT,"Shoes")
+link_clothing =(By.PARTIAL_LINK_TEXT,"Clothing")
+link_accessories  =(By.PARTIAL_LINK_TEXT,"Accessories")
+
+
+
 link_digital_downloads= (By.PARTIAL_LINK_TEXT,"Digital downloads")
 link_books= (By.PARTIAL_LINK_TEXT,"Books")
 link_jewelry= (By.PARTIAL_LINK_TEXT,"Jewelry")
@@ -120,3 +136,13 @@ class HomePage(SeleniumBase):
     def get_gift_card_products(self):
         element = self.get_element(gift_card_products_page_title)
         return element
+
+    def click_shoes(self):
+        self.get_element_mouse_hover(link_apparel,link_shoes)
+
+    def click_clothing(self):
+        self.get_element_mouse_hover(link_apparel,link_shoes,link_clothing)
+
+    def click_notebooks(self):
+        self.get_element_mouse_hover(link_computers,link_desktops,link_notebooks)
+

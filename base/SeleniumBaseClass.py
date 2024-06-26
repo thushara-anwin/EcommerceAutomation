@@ -1,6 +1,8 @@
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.select import Select
+
 
 
 class SeleniumBase:
@@ -8,7 +10,7 @@ class SeleniumBase:
         self.driver = driver
         self.timeout = timeout
         self.wait = WebDriverWait(driver,timeout)
-
+        self.act = ActionChains(self.driver)
 
     def get_element(self,locator):
         element = self.wait.until(ec.visibility_of_element_located(locator))
@@ -31,5 +33,22 @@ class SeleniumBase:
         element = self.get_element(locator)
         text = element.text
         return text
+
+    def get_element_mouse_hover(self,*locators):
+        if len(locators) == 2:
+            element1 = self.get_element(locators[0])
+            self.act.move_to_element(element1)
+            self.act.click().perform()
+            element2 = self.get_element(locators[1])
+            self.act.move_to_element(element2).click().perform()
+        elif len(locators) == 3:
+            element1 = self.get_element(locators[0])
+            self.act.move_to_element(element1)
+            self.act.click().perform()
+            element2 = self.get_element(locators[1])
+            element3 = self.get_element(locators[2])
+            self.act.move_to_element(element2).move_to_element(element3).click().perform()
+
+
 
 
