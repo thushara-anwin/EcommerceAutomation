@@ -1,0 +1,147 @@
+Functional Requirements Specification (FRS) Document
+------------------------------------------------------
+1. Introduction
+=======================
+1.1 Purpose
+
+The purpose of this document is to outline the functional requirements for the nopCommerce
+demo website (https://demo.nopcommerce.com/).
+
+1.2 Scope
+This document covers the core functionalities and features that the website should exhibit
+to meet user expectations and business needs.
+
+1.3 Definitions, Acronyms, and Abbreviations
+
+FRS: Functional Requirements Specification
+UI: User Interface
+UX: User Experience
+
+2. General Description
+================================
+2.1 Product Perspective
+The nopCommerce demo website is an e-commerce platform that showcases various products and
+allows users to browse, search, purchase, and manage products through an administrative interface.
+
+2.2 Product Features
+
+User-facing Features:
+---------------------
+
+Product browsing and searching
+Product categories and filters
+Shopping cart management
+User registration and authentication
+Wishlist and comparison functionalities
+Checkout process with multiple payment options
+
+Admin-facing Features:
+----------------------------
+
+Product management (add, edit, delete)
+Order management (view, update)
+User management (create, edit, delete)
+Dashboard with sales statistics and reports
+
+3. Specific Requirements
+========================
+
+3.1 User Requirements
+-------------------------------
+
+3.1.1 Registration and Login
+----------------------------------
+Requirement 1: Users shall be able to register with the website using valid email addresses
+and passwords.
+Requirement 2: Registered users shall be able to log in using their credentials to access
+personalized features.
+
+3.1.2 Product Browsing and Searching
+---------------------------------------
+Requirement 3: Users shall be able to browse products by categories and subcategories.
+Requirement 4: Users shall be able to search for products using a search bar with autocomplete
+functionality.
+
+3.1.3 Cart Management
+-----------------------
+Requirement 5: Users shall be able to add products to their shopping cart.
+Requirement 6: Users shall be able to update the quantity or remove products from the shopping
+cart.
+Requirement 7: Users shall be able to proceed to checkout from the shopping cart page.
+
+3.1.4 Checkout Process
+-----------------------------
+Requirement 8: Users shall be able to enter billing and shipping information during the checkout process.
+Requirement 9: Users shall be able to select shipping methods and review the order summary before finalizing
+the purchase.
+
+3.1.5 Wishlist and Comparison
+-----------------------------------
+Requirement 10: Users shall be able to add products to their wishlist and view/manage their wishlist items.
+Requirement 11: Users shall be able to compare products based on specifications and features.
+
+3.2 Admin Requirements
+==============================
+3.2.1 Product Management
+-------------------------
+
+Requirement 12: Administrators shall be able to add new products with details such as name, description, price,
+and inventory.
+Requirement 13: Administrators shall be able to edit existing product details and update product information.
+Requirement 14: Administrators shall be able to delete products from the inventory.
+
+3.2.2 Order Management
+----------------------------
+Requirement 15: Administrators shall be able to view a list of orders placed on the website.
+Requirement 16: Administrators shall be able to update order statuses (e.g., processing, shipped) based on order
+fulfillment.
+
+3.2.3 User Management
+----------------------------
+Requirement 17: Administrators shall be able to create new user accounts with specified roles and permissions.
+Requirement 18: Administrators shall be able to edit user profiles and update user information.
+Requirement 19: Administrators shall be able to deactivate or delete user accounts as needed.
+
+3.3 System Requirements
+==================================
+3.3.1 Performance Requirements
+------------------------------
+Requirement 20: The website shall load product pages within 3 seconds on average, measured under normal server load
+conditions.
+Requirement 21: The checkout process shall handle a minimum of 100 concurrent users without significant performance
+degradation.
+
+3.3.2 Security Requirements
+-------------------------------
+Requirement 22: User passwords shall be stored securely using hashing algorithms.
+Requirement 23: The website shall use HTTPS to ensure secure communication for all sensitive transactions.
+
+3.3.3 Compatibility Requirements
+------------------------------------------
+Requirement 24: The website shall be compatible with modern web browsers including Chrome, Firefox, Safari, and Edge.
+Requirement 25: The website shall be responsive and provide a consistent user experience across desktop, tablet, and
+mobile devices.
+
+4. Additional Considerations
+================================
+
+4.1 Usability
+--------------------------------
+Requirement 26: The website shall have an intuitive user interface with clear navigation and easy access to key
+functionalities.
+
+4.2 Localization and Internationalization
+-----------------------------------------------
+Requirement 27: The website shall support multiple languages, allowing users to switch between languages based on their
+preferences.
+Requirement 28: The website shall support multiple currencies, allowing users to view product prices in their
+preferred currency.
+
+4.3 Maintenance and Support
+------------------------------------
+Requirement 29: The website shall include an admin dashboard for monitoring site performance, managing content, and
+addressing technical issues.
+Requirement 30: The website shall provide documentation and support resources for administrators and users.
+This outline provides a structured approach to documenting the functional requirements of the nopCommerce demo website.
+Each requirement should be further detailed with specifics, acceptance criteria, and any relevant notes for clarity.
+Adjustments can be made based on specific needs and features of the website as per stakeholder requirements.
