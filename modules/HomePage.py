@@ -24,6 +24,8 @@ homepage_title ="nopCommerce demo store"
 link_computers= (By.PARTIAL_LINK_TEXT,"Computers")
 link_desktops = (By.PARTIAL_LINK_TEXT,"Desktops")
 link_notebooks = (By.PARTIAL_LINK_TEXT,"notebooks")
+link_software  = (By.PARTIAL_LINK_TEXT,"Software")
+
 
 
 
@@ -52,7 +54,8 @@ books_products_page_title = (By.XPATH,"//h1[text()='Books']")
 jewelry_products_page_title = (By.XPATH,"//h1[text()='Jewelry']")
 gift_card_products_page_title = (By.XPATH,"//h1[text()='Gift Cards']")
 
-
+#messages
+message_product_added_locator = (By.CSS_SELECTOR,"p.content")
 class HomePage(SeleniumBase):
     def __init__(self,driver):
         super().__init__(driver=driver)
@@ -143,6 +146,18 @@ class HomePage(SeleniumBase):
     def click_clothing(self):
         self.get_element_mouse_hover(link_apparel,link_shoes,link_clothing)
 
+    def click_accessories(self):
+        self.get_element_mouse_hover(link_apparel,link_shoes,link_clothing,link_accessories)
+
+    def click_desktops(self):
+        self.get_element_mouse_hover(link_computers, link_desktops)
+
     def click_notebooks(self):
         self.get_element_mouse_hover(link_computers,link_desktops,link_notebooks)
 
+    def click_software(self):
+        self.get_element_mouse_hover(link_computers, link_desktops, link_notebooks,link_software)
+
+    def get_message_product_added_locator(self):
+        element = self.get_element(message_product_added_locator)
+        return element

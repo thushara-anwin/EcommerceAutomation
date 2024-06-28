@@ -10,8 +10,7 @@ class Test_03_ProductDetails:
     def set_up(self):
         self.hp = HomePage(self.driver)
         self.hp.navigate_to_homepage()
-        time.sleep(15)
-        self.cp = ClothingPage(self.driver)
+        self.cp = Clothing(self.driver)
 
     def test_if_product_details_displayed(self):
         self.hp.click_clothing()

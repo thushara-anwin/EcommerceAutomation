@@ -48,6 +48,20 @@ class SeleniumBase:
             element2 = self.get_element(locators[1])
             element3 = self.get_element(locators[2])
             self.act.move_to_element(element2).move_to_element(element3).click().perform()
+        elif len(locators) == 4:
+            element1 = self.get_element(locators[0])
+            self.act.move_to_element(element1)
+            self.act.click().perform()
+            element2 = self.get_element(locators[1])
+            element3 = self.get_element(locators[2])
+            element4 = self.get_element(locators[4])
+            self.act.move_to_element(element2).move_to_element(element3).move_to_element(element4).click().perform()
+
+
+    def add_product_to_cart(self,product_locator,add_to_cart_locator):
+        self.click_element(product_locator)
+        self.click_element(add_to_cart_locator)
+
 
 
 

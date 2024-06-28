@@ -7,7 +7,7 @@ custom_t_shirt = (By.PARTIAL_LINK_TEXT,"Custom T-Shirt")
 custom_t_shirt_name =(By.XPATH,"//h1[text()='Custom T-Shirt']")
 custom_t_shirt_price =(By.ID,"price-value-29")
 custom_t_shirt_description = (By.XPATH,"//div[@class='full-description']")
-class ClothingPage(SeleniumBase):
+class Clothing(SeleniumBase):
     def __init__(self,driver):
         super().__init__(driver=driver)
 
