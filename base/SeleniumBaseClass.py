@@ -7,6 +7,7 @@ from selenium.webdriver.support.select import Select
 
 class SeleniumBase:
     def __init__(self,driver,timeout=30):
+        self.selection = None
         self.driver = driver
         self.timeout = timeout
         self.wait = WebDriverWait(driver,timeout)
@@ -26,8 +27,9 @@ class SeleniumBase:
         element.send_keys(data)
 
     def enter_dropdown_value(self,text,locator):
-        self.selection = Select(locator)
-        self.selection.select_by_visible_text()
+        element = self.get_element(locator)
+        self.selection = Select(element)
+        self.selection.select_by_visible_text(text)
 
     def get_text(self,locator):
         element = self.get_element(locator)

@@ -29,3 +29,6 @@ class ShoppingCart(SeleniumBase):
         self.click_element(button_checkout)
 
 
+
+
+
