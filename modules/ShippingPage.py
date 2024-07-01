@@ -132,7 +132,7 @@ class Shipping(SeleniumBase):
         self.click_on_button_next_payment_method()
 
 
-    def shipping_address(self):
+    def guest_shipping_address(self):
         self.enter_first_name()
         self.enter_last_name()
         self.enter_email()
