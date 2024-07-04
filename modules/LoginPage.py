@@ -62,3 +62,10 @@ class Login(SeleniumBase):
 
 
 
+    def user_login(self):
+        self.click_link_login()
+        self.enter_valid_id_to_text_box_email_id()
+        self.enter_valid_pswd_to_text_box_password()
+        self.click_button_login()
+
+

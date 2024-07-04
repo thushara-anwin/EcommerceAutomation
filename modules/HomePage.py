@@ -12,7 +12,6 @@ link_wishlist =(By.XPATH,"//span[text()='Wishlist']")
 valid_product_locator=(By.XPATH,"//button[text()='Add to cart']")
 no_product_message=(By.XPATH,"//div[@class='no-result']")
 min_length_warning_locator =(By.XPATH,"//div[@class='warning']")
-
 # homepage_data
 valid_search_data ="Apple MacBook Pro 13-inch"
 invalid_search_data="good morning"
@@ -161,3 +160,6 @@ class HomePage(SeleniumBase):
     def get_message_product_added_locator(self):
         element = self.get_element(message_product_added_locator)
         return element
+
+    def click_on_link_wishlist(self):
+        self.click_element(link_wishlist)

@@ -1,6 +1,7 @@
 import pytest
 from modules.LoginPage import *
 from modules.HomePage import *
+from modules.RegistrationPage import *
 
 @pytest.mark.usefixtures("setup_and_teardown")
 class Test_09_TestLogin:
@@ -9,9 +10,13 @@ class Test_09_TestLogin:
         self.lp = Login(self.driver)
         self.hp = HomePage(self.driver)
         self.hp.navigate_to_homepage()
-        self.lp.click_link_login()
+        #self.lp.click_link_login()
+        self.rp = Registration(self.driver)
 
     def test_login_with_valid_credentials(self):
+        self.rp.returning_user_registration()
+        self.lp.click_logout()
+        self.lp.click_link_login()
         self.lp.enter_valid_id_to_text_box_email_id()
         self.lp.enter_valid_pswd_to_text_box_password()
         self.lp.click_button_login()
@@ -25,6 +30,7 @@ class Test_09_TestLogin:
 
 
     def test_login_with_invalid_email(self):
+        self.lp.click_link_login()
         self.lp.enter_invalid_id_to_text_box_email_id()
         self.lp.enter_valid_pswd_to_text_box_password()
         self.lp.click_button_login()
@@ -36,6 +42,7 @@ class Test_09_TestLogin:
             assert False
 
     def test_login_with_invalid_password(self):
+        self.lp.click_link_login()
         self.lp.enter_valid_id_to_text_box_email_id()
         self.lp.enter_invalid_pswd_to_text_box_password()
         self.lp.click_button_login()
@@ -47,6 +54,7 @@ class Test_09_TestLogin:
             assert False
 
     def test_login_with_empty_fields(self):
+        self.lp.click_link_login()
         self.lp.enter_no_value_to_text_box_email_id()
         self.lp.enter_no_value_to_text_box_password()
         self.lp.click_button_login()

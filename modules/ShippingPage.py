@@ -37,6 +37,7 @@ button_next_shipping_method = (By.XPATH,"//button[@class='button-1 shipping-meth
 button_next_payment_method = (By.XPATH,"//button[@class='button-1 payment-method-next-step-button']")
 button_next_step_info = (By.XPATH,"//button[@class='button-1 payment-info-next-step-button']")
 
+button_continue_shopping = (By.XPATH,"//button[@name='continueshopping']")
 button_confirm = (By.XPATH,"//button[text()='Confirm']")
 message_shopping_success =(By.XPATH,"//strong[text()='Your order has been successfully processed!']")
 
@@ -47,6 +48,9 @@ class Shipping(SeleniumBase):
     def __init__(self,driver):
         super().__init__(driver=driver)
         self.fk = Faker()
+
+    def click_on_button_continue_shopping(self):
+        self.click_element(button_continue_shopping)
 
 
     def enter_first_name(self):
@@ -127,6 +131,7 @@ class Shipping(SeleniumBase):
 
 
 
+
     def click_on_radio_check_money_order(self):
         self.click_element(radio_check_money_order)
         self.click_on_button_next_payment_method()
@@ -137,6 +142,16 @@ class Shipping(SeleniumBase):
         self.enter_last_name()
         self.enter_email()
         self.enter_company()
+        self.enter_country()
+        self.enter_state()
+        self.enter_city()
+        self.enter_address1()
+        self.enter_address2()
+        self.enter_zip()
+        self.enter_phone()
+        self.enter_fax()
+
+    def returning_customer_shipping_address(self):
         self.enter_country()
         self.enter_state()
         self.enter_city()
