@@ -1,9 +1,9 @@
 import time
 import pytest
-from modules.HomePage import HomePage
-from modules.CellPhonesPage import *
-from modules.ElectronicsPage import *
-from modules.LoginPage import *
+from modules.ui.home_page.HomePage import HomePage
+from modules.ui.cellphones.CellPhonesPage import CellPhone
+from modules.ui.electronics_page.ElectronicsPage import Electronics
+from modules.ui.user_login.LoginPage import Login
 
 
 

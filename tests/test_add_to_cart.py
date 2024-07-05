@@ -1,6 +1,6 @@
 import pytest
-from modules.HomePage import *
-from modules.ElectronicsPage import *
+from modules.ui.home_page.HomePage import HomePage
+from modules.ui.electronics_page.ElectronicsPage import Electronics
 
 @pytest.mark.usefixtures("setup_and_teardown")
 class Test_05_Add_to_Cart:

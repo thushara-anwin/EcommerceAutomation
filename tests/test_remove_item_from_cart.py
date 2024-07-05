@@ -1,8 +1,8 @@
 import time
 import pytest
-from modules.HomePage import *
-from modules.Jewelry import *
-from modules.ShoppingCartPage import *
+from modules.ui.home_page.HomePage import HomePage
+from modules.ui.jewelry.Jewelry import Jewelry
+from modules.ui.shopping_cart.ShoppingCartPage import ShoppingCart
 @pytest.mark.usefixtures("setup_and_teardown")
 class Test_06_RemoveFromCart:
     @pytest.fixture(autouse=True)

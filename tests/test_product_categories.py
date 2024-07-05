@@ -1,6 +1,6 @@
 
 import pytest
-from modules.HomePage import *
+from modules.ui.home_page.HomePage import HomePage
 
 @pytest.mark.usefixtures("setup_and_teardown")
 class Test_02_ProductCategories:

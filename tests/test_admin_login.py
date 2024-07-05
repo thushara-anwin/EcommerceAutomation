@@ -1,8 +1,10 @@
 import pytest
-from modules.AdminLoginPage import *
+from modules.ui.admin_login.AdminLoginPage import Admin
+from modules.ui.admin_login.admin_login_page_data import *
+
 
 @pytest.mark.usefixtures("setup_and_teardown")
-class TestLogin:
+class Test_016_TestAdminLogin:
     @pytest.fixture(autouse=True)
     def set_up(self):
         self.ap = Admin(self.driver)

@@ -1,10 +1,11 @@
-import time
+
 
 import pytest
-from modules.HomePage import *
-from modules.Jewelry import *
-from modules.ShoppingCartPage import *
-from modules.ShippingPage import *
+
+from modules.ui.home_page.HomePage import HomePage
+from modules.ui.jewelry.Jewelry import Jewelry
+from modules.ui.shopping_cart.ShoppingCartPage import ShoppingCart
+from modules.ui.shipping_page.ShippingPage import Shipping
 
 
 @pytest.mark.usefixtures("setup_and_teardown")
@@ -25,7 +26,7 @@ class Test_07_CheckoutAsGuest:
         self.sc.click_on_check_box_terms_of_service()
         self.sc.click_on_button_checkout()
         self.sp.click_on_button_checkout_guest()
-        self.sp.shipping_address()
+        self.sp.guest_shipping_address()
         self.sp.click_on_button_continue()
         self.sp.shipping_method('next_day')
         self.sp.click_on_radio_check_money_order()

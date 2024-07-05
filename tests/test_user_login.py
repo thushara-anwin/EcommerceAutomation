@@ -1,7 +1,7 @@
 import pytest
-from modules.LoginPage import *
-from modules.HomePage import *
-from modules.RegistrationPage import *
+from modules.ui.user_login.LoginPage import Login
+from modules.ui.home_page.HomePage import HomePage
+from modules.ui.user_registration.RegistrationPage import Registration
 
 @pytest.mark.usefixtures("setup_and_teardown")
 class Test_09_TestLogin:

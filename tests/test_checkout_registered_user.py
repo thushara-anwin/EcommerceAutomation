@@ -27,7 +27,7 @@ class Test_013_CheckoutRegisteredUser():
 
 
 
-    def test_compare_products(self):
+    def test_checkout_functionality_registeted_user(self):
         self.lp.user_login()
         self.hp.click_on_link_electronics()
         self.ep.click_on_link_cellphone()

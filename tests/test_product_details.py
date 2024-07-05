@@ -1,7 +1,7 @@
 import time
 import pytest
-from modules.HomePage import HomePage
-from modules.ClothingPage import *
+from modules.ui.home_page.HomePage import HomePage
+from modules.ui.clothings_page.ClothingPage import Clothing
 
 
 @pytest.mark.usefixtures("setup_and_teardown")

@@ -1,11 +1,11 @@
 import time
 import pytest
-from modules.LoginPage import *
-from modules.HomePage import *
-from modules.Jewelry import *
-from modules.ShoppingCartPage import *
-from modules.RegistrationPage import *
-from modules.ShippingPage import *
+from modules.ui.user_login.LoginPage import Login
+from modules.ui.home_page.HomePage import HomePage
+from modules.ui.jewelry.Jewelry import Jewelry
+from modules.ui.shopping_cart.ShoppingCartPage import ShoppingCart
+from modules.ui.user_registration.RegistrationPage import Registration
+from modules.ui.shipping_page.ShippingPage import Shipping
 
 @pytest.mark.usefixtures("setup_and_teardown")
 class Test_10_ModifyOrCancelOrder:
