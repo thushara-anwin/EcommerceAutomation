@@ -41,6 +41,9 @@ button_continue_shopping = (By.XPATH,"//button[@name='continueshopping']")
 button_confirm = (By.XPATH,"//button[text()='Confirm']")
 message_shopping_success =(By.XPATH,"//strong[text()='Your order has been successfully processed!']")
 
+
+billing_checkout_page = (By.CSS_SELECTOR,"h1")
+button_continue_with_the_shipping_address = (By.CSS_SELECTOR,"button[name ='save']")
 #data
 country = "United States"
 state = "Hawaii"
@@ -174,4 +177,10 @@ class Shipping(SeleniumBase):
         element = self.get_element(message_shopping_success)
         return element
 
+    def get_to_checkout_page(self):
+        element = self.get_element(billing_checkout_page)
+        return element
 
+
+    def click_on_button_continue_with_the_shipping_address(self):
+        self.click_element(button_continue_with_the_shipping_address)
