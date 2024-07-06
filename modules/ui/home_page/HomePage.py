@@ -10,8 +10,8 @@ class HomePage(SeleniumBase):
     def navigate_to_homepage(self):
         self.driver.get(homepage_url)
 
-    def get_title(self):
-        title = self.get_text(title_locator)
+    def get_home_page_title(self):
+        title = self.get_element(title_locator)
         return title
 
     def enter_valid_search_data(self):
@@ -111,3 +111,6 @@ class HomePage(SeleniumBase):
 
     def click_on_link_wishlist(self):
         self.click_element(link_wishlist)
+
+
+

@@ -3,7 +3,7 @@ import pytest
 from modules.ui.home_page.HomePage import HomePage
 
 @pytest.mark.usefixtures("setup_and_teardown")
-class Test_02_ProductCategories:
+class Test_03_ProductCategories:
     @pytest.fixture(autouse=True)
     def set_up(self):
         self.hp = HomePage(self.driver)

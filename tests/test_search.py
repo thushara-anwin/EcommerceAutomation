@@ -2,7 +2,7 @@ import pytest
 from modules.ui.home_page.HomePage import HomePage
 
 @pytest.mark.usefixtures("setup_and_teardown")
-class Test_01_Search:
+class Test_02_Search:
     @pytest.fixture(autouse= True)
     def setup(self):
         self.hp = HomePage(self.driver)

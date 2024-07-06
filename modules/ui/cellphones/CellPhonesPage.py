@@ -42,5 +42,3 @@ class CellPhone(SeleniumBase):
         self.click_element(link_nokia_lumia)
         self.click_element(button_add_to_wishlist_nokia_lumia)
 
-    def click_on_link_compare_products_list(self):
-        self.click_element(link_compare_products)

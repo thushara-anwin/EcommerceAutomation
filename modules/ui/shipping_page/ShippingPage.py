@@ -168,8 +168,9 @@ class Shipping(SeleniumBase):
         self.enter_value(card_code,text_box_card_code)
         self.click_element(button_continue_credit_card_page)
 
-
-
+    def title_order_number(self):
+        element = self.get_element(order_number_locator)
+        return element
 
 
 

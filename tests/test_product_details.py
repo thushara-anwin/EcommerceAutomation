@@ -5,7 +5,7 @@ from modules.ui.clothings_page.ClothingPage import Clothing
 
 
 @pytest.mark.usefixtures("setup_and_teardown")
-class Test_03_ProductDetails:
+class Test_04_ProductDetails:
     @pytest.fixture(autouse=True)
     def set_up(self):
         self.hp = HomePage(self.driver)

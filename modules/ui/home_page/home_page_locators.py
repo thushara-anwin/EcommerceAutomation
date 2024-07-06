@@ -3,17 +3,15 @@ from selenium.webdriver.common.by import By
 # homepage _locators
 textbox_search =(By.ID,"small-searchterms")
 btn_search=(By.XPATH,"//button[@type='submit']")
-title_locator =(By.XPATH,"//title[text()='nopCommerce demo store']")
+
+title_locator =(By.XPATH,"//title")
+
 link_login =(By.LINK_TEXT,"Log in")
 link_register =(By.LINK_TEXT,"Register")
 link_wishlist =(By.XPATH,"//span[text()='Wishlist']")
 valid_product_locator=(By.XPATH,"//button[text()='Add to cart']")
 no_product_message=(By.XPATH,"//div[@class='no-result']")
 min_length_warning_locator =(By.XPATH,"//div[@class='warning']")
-# homepage_data
-valid_search_data ="Apple MacBook Pro 13-inch"
-invalid_search_data="good morning"
-short_search_data ="hi"
 
 
 #product_category_locators
@@ -52,3 +50,5 @@ gift_card_products_page_title = (By.XPATH,"//h1[text()='Gift Cards']")
 
 #messages
 message_product_added_locator = (By.CSS_SELECTOR,"p.content")
+title_home_page = (By.XPATH,"//title")
+

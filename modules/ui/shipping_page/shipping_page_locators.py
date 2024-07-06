@@ -51,3 +51,5 @@ text_box_card_expiration_year = (By.CSS_SELECTOR, "select#ExpireYear")
 text_box_card_code = (By.CSS_SELECTOR, "input#CardCode")
 button_continue_credit_card_page = (By.XPATH, "//button[@onclick='if (!window.__cfRLUnblockHandlers) "
                                                   "return false; PaymentInfo.save()']")
+
+order_number_locator = (By.XPATH,"//div[@class='order-number']")
