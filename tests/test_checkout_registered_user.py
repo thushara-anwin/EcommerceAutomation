@@ -1,11 +1,12 @@
 import time
 import pytest
-from modules.HomePage import HomePage
-from modules.CellPhonesPage import *
-from modules.ElectronicsPage import *
-from modules.LoginPage import *
-from modules.ShoppingCartPage import *
-from modules.ShippingPage import *
+from modules.ui.user_registration.RegistrationPage import Registration
+from modules.ui.home_page.HomePage import HomePage
+from modules.ui.cellphones.CellPhonesPage import CellPhone
+from modules.ui.electronics_page.ElectronicsPage import Electronics
+from modules.ui.user_login.LoginPage import Login
+from modules.ui.shopping_cart.ShoppingCartPage import ShoppingCart
+from modules.ui.shipping_page.ShippingPage import Shipping
 
 
 
@@ -22,12 +23,11 @@ class Test_013_CheckoutRegisteredUser():
         self.lp = Login(self.driver)
         self.sc = ShoppingCart(self.driver)
         self.sp = Shipping(self.driver)
-
-
-
-
+        self.rp = Registration(self.driver)
 
     def test_checkout_functionality_registeted_user(self):
+        #self.rp.returning_user_registration()
+        #self.lp.click_logout()
         self.lp.user_login()
         self.hp.click_on_link_electronics()
         self.ep.click_on_link_cellphone()
@@ -38,7 +38,5 @@ class Test_013_CheckoutRegisteredUser():
         self.sc.click_on_link_shopping_cart()
         self.sc.click_on_check_box_terms_of_service()
         self.sc.click_on_button_checkout()
-        time.sleep(12)
         element = self.sp.get_to_checkout_page()
         assert element.is_displayed()
-        time.sleep(12)

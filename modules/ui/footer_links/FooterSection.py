@@ -66,7 +66,7 @@ class Footer(SeleniumBase):
 
     def get_title_new_products(self):
         element =self.get_element(title_new_products_page)
-        return
+        return element
 
     def click_on_link_news(self):
         self.click_element(link_news)

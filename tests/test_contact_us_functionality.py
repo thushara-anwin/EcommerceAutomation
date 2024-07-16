@@ -18,7 +18,7 @@ class Test_018_ContactUs():
         self.fs.enter_fullname()
         self.fs.enter_email()
         self.fs.enter_enquiry()
-        time.sleep(12)
+        time.sleep(3)
 
         self.fs.click_submit_enquiry()
         element = self.fs.get_success_message_enquiry_submission()
@@ -32,7 +32,7 @@ class Test_018_ContactUs():
         self.fs.empty_fullname()
         self.fs.enter_email()
         self.fs.enter_enquiry()
-        time.sleep(12)
+        time.sleep(3)
 
         self.fs.click_submit_enquiry()
         element = self.fs.get_message_error_full_name()

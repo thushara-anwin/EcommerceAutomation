@@ -1,5 +1,5 @@
-
-from faker import Faker
+import time
+#from faker import Faker
 from base.SeleniumBaseClass import SeleniumBase
 from modules.ui.shipping_page.shipping_page_locators import *
 from modules.ui.shipping_page.shipping_page_data import *
@@ -8,7 +8,7 @@ from modules.ui.shipping_page.shipping_page_data import *
 class Shipping(SeleniumBase):
     def __init__(self,driver):
         super().__init__(driver=driver)
-        self.fk = Faker()
+        #self.fk = Faker()
         #self.rd = random.randint(1,13)
 
     def click_on_button_continue_shopping(self):
@@ -17,20 +17,20 @@ class Shipping(SeleniumBase):
 
     def enter_first_name(self):
 
-        self.fk = Faker()
-        f_name = self.fk.first_name()
-        self.enter_value(f_name,textbox_first_name)
+        #self.fk = Faker()
+        #f_name = self.fk.first_name()
+        self.enter_value(first_name,textbox_first_name)
 
     def enter_last_name(self):
-        l_name = self.fk.last_name_male()
-        self.enter_value(l_name,textbox_last_name)
+        #l_name = self.fk.last_name_male()
+        self.enter_value(last_name,textbox_last_name)
 
     def enter_email(self):
-        email = self.fk.email()
+        #email = self.fk.email()
         self.enter_value(email,textbox_email)
 
     def enter_company(self):
-        company = self.fk.company()
+        #company = self.fk.company()
         self.enter_value(company, textbox_company)
 
     def enter_country(self):
@@ -40,29 +40,54 @@ class Shipping(SeleniumBase):
         self.enter_dropdown_value(state,dropdown_list_state)
 
     def enter_city(self):
-        city = self.fk.city()
+        #city = self.fk.city()
         self.enter_value(city,textbox_city)
 
     def enter_address1(self):
-        address1 = self.fk.building_number()
+        #address1 = self.fk.building_number()
         self.enter_value(address1,textbox_address1)
 
     def enter_address2(self):
-        address2 = self.fk.building_number()
+        #address2 = self.fk.building_number()
         self.enter_value(address2,textbox_address2)
 
 
     def enter_zip(self):
-        zip = self.fk.postalcode()
+        #zip = self.fk.postalcode()
         self.enter_value(zip,textbox_zip)
 
     def enter_phone(self):
-        phone_number = self.fk.phone_number()
-        self.enter_value(phone_number,textbox_phone)
+        self.enter_value(phone,textbox_phone)
 
     def enter_fax(self):
-        fax = self.fk.building_number()
+        #fax = self.fk.building_number()
         self.enter_value(fax,textbox_fax_number)
+
+    #returning customer address
+
+    def enter_country_ret_cust(self):
+        self.enter_dropdown_value(ret_country, dropdown_list_country)
+
+    def enter_state_ret_cust(self):
+        self.enter_dropdown_value(ret_state, dropdown_list_state)
+
+    def enter_city_ret_cust(self):
+        self.enter_value(ret_city, textbox_city)
+
+    def enter_address1_ret_cust(self):
+        self.enter_value(ret_address1, textbox_address1)
+
+    def enter_address2_ret_cust(self):
+        self.enter_value(ret_address2, textbox_address2)
+
+    def enter_zip_ret_cust(self):
+        self.enter_value(ret_zip, textbox_zip)
+
+    def enter_phone_ret_cust(self):
+        self.enter_value(ret_phone, textbox_phone)
+
+    def enter_fax_ret_cust(self):
+        self.enter_value(ret_fax, textbox_fax_number)
 
     def click_on_radio_shipping_method_ground(self):
         self.click_element(radio_shipping_method_ground)
@@ -108,6 +133,7 @@ class Shipping(SeleniumBase):
         self.enter_email()
         self.enter_company()
         self.enter_country()
+        time.sleep(12)
         self.enter_state()
         self.enter_city()
         self.enter_address1()
@@ -117,14 +143,15 @@ class Shipping(SeleniumBase):
         self.enter_fax()
 
     def returning_customer_shipping_address(self):
-        self.enter_country()
-        self.enter_state()
-        self.enter_city()
-        self.enter_address1()
-        self.enter_address2()
-        self.enter_zip()
-        self.enter_phone()
-        self.enter_fax()
+        self.enter_country_ret_cust()
+        time.sleep(5)
+        self.enter_state_ret_cust()
+        self.enter_city_ret_cust()
+        self.enter_address1_ret_cust()
+        self.enter_address2_ret_cust()
+        self.enter_zip_ret_cust()
+        self.enter_phone_ret_cust()
+        self.enter_fax_ret_cust()
         self.click_on_button_continue()
 
 
@@ -161,7 +188,7 @@ class Shipping(SeleniumBase):
     def add_credit_card_details(self):
         self.enter_dropdown_value(card_type,text_box_card_type)
         self.enter_value(card_holder_name,text_box_card_holder_name)
-        card_number = self.fk.credit_card_number()
+        # = self.fk.credit_card_number()
         self.enter_value(card_number,text_box_card_number)
         self.enter_dropdown_value(expire_month, text_box_card_expiration_month)
         self.enter_dropdown_value(expire_year, text_box_card_expiration_year)

@@ -13,6 +13,12 @@ class Login(SeleniumBase):
     def enter_valid_id_to_text_box_email_id(self):
         self.enter_value(valid_id,text_box_email_id)
 
+    # def enter_valid_id2_to_text_box_email_id(self):
+    #     self.enter_value(valid_id1,text_box_email_id)
+    #
+    # def enter_valid_id3_to_text_box_email_id(self):
+    #     self.enter_value(valid_id1,text_box_email_id)
+
     def enter_invalid_id_to_text_box_email_id(self):
         self.enter_value(invalid_id,text_box_email_id)
 
@@ -52,5 +58,20 @@ class Login(SeleniumBase):
         self.enter_valid_id_to_text_box_email_id()
         self.enter_valid_pswd_to_text_box_password()
         self.click_button_login()
+
+    # def user1_login(self):
+    #     self.click_link_login()
+    #     self.enter_valid_id1_to_text_box_email_id()
+    #     self.enter_valid_pswd_to_text_box_password()
+    #     self.click_button_login()
+    #
+    # def user2_login(self):
+    #     self.click_link_login()
+    #     self.enter_valid_id2_to_text_box_email_id()
+    #     self.enter_valid_pswd_to_text_box_password()
+    #     self.click_button_login()
+
+
+
 
 

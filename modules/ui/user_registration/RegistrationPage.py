@@ -1,4 +1,6 @@
 from modules.ui.user_registration.registration_page_locators import *
+from modules.ui.user_registration.registration_page_data import *
+
 from base.SeleniumBaseClass import SeleniumBase
 from faker import Faker
 import random
@@ -69,22 +71,44 @@ class Registration(SeleniumBase):
         self.enter_dropdown_value(date,dropdown_day)
         self.enter_dropdown_value(month, dropdown_month)
         self.enter_dropdown_value(year, dropdown_year)
-        self.enter_value(email, text_box_email)
+        self.enter_value(email_user, text_box_email)
         self.enter_value(company, text_box_company)
         self.enter_value(pswd, text_box_pswd)
         self.enter_value(pswd, text_box_confirm_pswd)
         self.click_element(button_register)
 
-#Returning_user data
-fname ="Amy"
-lname = "James"
-date = "16"
-month = "May"
-year = "1994"
-email = "amyjames@gmail.com"
-company = "ABC"
-pswd = "amyjames@123"
 
+    # def returning_user2_registration(self):
+    #     self.click_on_link_registration()
+    #     self.click_element(radio_female)
+    #     self.enter_value(fname, text_box_fname)
+    #     self.enter_value(lname, text_box_lname)
+    #     self.enter_dropdown_value(date,dropdown_day)
+    #     self.enter_dropdown_value(month, dropdown_month)
+    #     self.enter_dropdown_value(year, dropdown_year)
+    #     self.enter_value(email_user2, text_box_email)
+    #     self.enter_value(company, text_box_company)
+    #     self.enter_value(pswd, text_box_pswd)
+    #     self.enter_value(pswd, text_box_confirm_pswd)
+    #     self.click_element(button_register)
+    #
+    #
+    # def returning_user3_registration(self):
+    #     self.click_on_link_registration()
+    #     self.click_element(radio_female)
+    #     self.enter_value(fname, text_box_fname)
+    #     self.enter_value(lname, text_box_lname)
+    #     self.enter_dropdown_value(date,dropdown_day)
+    #     self.enter_dropdown_value(month, dropdown_month)
+    #     self.enter_dropdown_value(year, dropdown_year)
+    #     self.enter_value(email_user3, text_box_email)
+    #     self.enter_value(company, text_box_company)
+    #     self.enter_value(pswd, text_box_pswd)
+    #     self.enter_value(pswd, text_box_confirm_pswd)
+    #     self.click_element(button_register)
+    #
+    #
+    #
 
 
 

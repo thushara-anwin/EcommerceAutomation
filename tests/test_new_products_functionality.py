@@ -20,4 +20,6 @@ class Test_019_NewProducts():
         if element.is_displayed():
             assert True
         else:
+
+            self.driver.savescreeshot(".\\screenshots\\new_products.png")
             assert False

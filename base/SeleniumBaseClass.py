@@ -2,7 +2,8 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.select import Select
-
+import logging
+log = logging.getLogger('testLogger')
 
 
 class SeleniumBase:
@@ -13,15 +14,22 @@ class SeleniumBase:
         self.wait = WebDriverWait(driver,timeout)
         self.act = ActionChains(self.driver)
 
-    def get_element(self,locator):
-        element = self.wait.until(ec.visibility_of_element_located(locator))
-        return element
+    def get_element(self, locator):
+        try:
+            log.info(f"finding element:{locator}")
+            element = self.wait.until(ec.visibility_of_element_located(locator))
+            return element
+        except Exception as e:
+            self.driver.save_screenshot(".\\screenshots\\locator_file.png")
+            raise
 
     def click_element(self,locator):
+        log.info(f"click to element :{locator}")
         element = self.get_element(locator)
         element.click()
 
     def enter_value(self,data,locator):
+        log.info(f"enter value {data} to element :{locator} ")
         element = self.get_element(locator)
         element.clear()
         element.send_keys(data)

@@ -20,10 +20,10 @@ class Test_10_ModifyOrCancelOrder:
         self.sp = Shipping(self.driver)
 
     def test_user_can_modify_or_cancel_order(self):
-        #self.rp.returning_user_registration()
+        #self.rp.returning_user1_registration()
         #self.lp.click_logout()
         self.lp.user_login()
-        time.sleep(12)
+        time.sleep(3)
         self.hp.click_on_link_jewelry()
         self.jp.add_flower_girl_bracelet_to_cart()
         self.jp.add_vintage_style_engagement_ring_to_cart()
