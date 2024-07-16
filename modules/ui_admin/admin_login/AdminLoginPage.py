@@ -1,6 +1,6 @@
 from base.SeleniumBaseClass import SeleniumBase
-from modules.ui.admin_login.admin_login_page_locators import *
-from modules.ui.admin_login.admin_login_page_data import *
+from modules.ui_admin.admin_login.admin_login_page_locators import *
+from modules.ui_admin.admin_login.admin_login_page_data import *
 
 
 

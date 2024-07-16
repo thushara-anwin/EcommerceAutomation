@@ -1,6 +1,6 @@
 import pytest
-from modules.ui.admin_login.AdminLoginPage import Admin
-from modules.ui.admin_login.admin_login_page_data import *
+from modules.ui_admin.admin_login.AdminLoginPage import Admin
+from modules.ui_admin.admin_login.admin_login_page_data import *
 
 
 @pytest.mark.usefixtures("setup_and_teardown")

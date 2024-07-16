@@ -16,7 +16,7 @@ class SeleniumBase:
 
     def get_element(self, locator):
         try:
-            log.info(f"finding element:{locator}")
+            #log.info(f"finding element:{locator}")
             element = self.wait.until(ec.visibility_of_element_located(locator))
             return element
         except Exception as e:
@@ -68,9 +68,9 @@ class SeleniumBase:
             self.act.move_to_element(element2).move_to_element(element3).move_to_element(element4).click().perform()
 
 
-    def add_product_to_cart(self,product_locator,add_to_cart_locator):
-        self.click_element(product_locator)
-        self.click_element(add_to_cart_locator)
+    # def add_product_to_cart(self,product_locator,add_to_cart_locator):
+    #     self.click_element(product_locator)
+    #     self.click_element(add_to_cart_locator)
 
 
 

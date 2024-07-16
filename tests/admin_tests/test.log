@@ -1,0 +1,11 @@
+2024-07-16 14:20:04 [INFO] (conftest.py:14) Logging is configured.
+2024-07-16 14:20:06 [INFO] (SeleniumBaseClass.py:32) enter value admin@yourstore.com to element :('id', 'Email') 
+2024-07-16 14:20:07 [INFO] (SeleniumBaseClass.py:32) enter value admin to element :('id', 'Password') 
+2024-07-16 14:20:07 [INFO] (SeleniumBaseClass.py:27) click to element :('xpath', "//button[@type='submit']")
+2024-07-16 14:20:08 [INFO] (SeleniumBaseClass.py:27) click to element :('link text', 'Logout')
+2024-07-16 14:20:09 [INFO] (SeleniumBaseClass.py:32) enter value 123admin@yourstore.com to element :('id', 'Email') 
+2024-07-16 14:20:09 [INFO] (SeleniumBaseClass.py:32) enter value admin to element :('id', 'Password') 
+2024-07-16 14:20:09 [INFO] (SeleniumBaseClass.py:27) click to element :('xpath', "//button[@type='submit']")
+2024-07-16 14:20:10 [INFO] (SeleniumBaseClass.py:32) enter value admin@yourstore.com to element :('id', 'Email') 
+2024-07-16 14:20:10 [INFO] (SeleniumBaseClass.py:32) enter value admin123 to element :('id', 'Password') 
+2024-07-16 14:20:10 [INFO] (SeleniumBaseClass.py:27) click to element :('xpath', "//button[@type='submit']")
