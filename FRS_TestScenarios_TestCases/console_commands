@@ -1,0 +1,22 @@
+"""
+command to execute code with custom commandline option
+python -m pytest -v --browser=chrome --headless=True .\tests\user_tests\
+"""
+
+# command to generate report
+python -m pytest -v  .\tests\admin_tests\ --html=logs/report.html
+
+python -m pytest -v  --html=./reports/report.html
+python -m pytest -v  --html=./reports/htmlreport.html
+python -m pytest -v  --junit-xml=./reports/xmlreport.html
+
+
+
+
+
+pytest -rA
+
+reports
+_________________
+
+pytest -rA --junit-xml = "Report1.xml"

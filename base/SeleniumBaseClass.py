@@ -16,7 +16,7 @@ class SeleniumBase:
 
     def get_element(self, locator):
         try:
-            #log.info(f"finding element:{locator}")
+            #log.info(f"*****finding element:{locator}********")
             element = self.wait.until(ec.visibility_of_element_located(locator))
             return element
         except Exception as e:
@@ -24,12 +24,12 @@ class SeleniumBase:
             raise
 
     def click_element(self,locator):
-        log.info(f"click to element :{locator}")
+        log.info(f"*********click to element :{locator}*******")
         element = self.get_element(locator)
         element.click()
 
     def enter_value(self,data,locator):
-        log.info(f"enter value {data} to element :{locator} ")
+        log.info(f"********Enter value {data} to element :{locator}****** ")
         element = self.get_element(locator)
         element.clear()
         element.send_keys(data)

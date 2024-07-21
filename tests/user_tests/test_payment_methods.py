@@ -36,13 +36,14 @@ class Test_014_PaymentMethods():
         self.sc.click_on_link_shopping_cart()
         self.sc.click_on_check_box_terms_of_service()
         self.sc.click_on_button_checkout()
-        time.sleep(10)
+        #time.sleep(1500)
         #self.sp.click_on_button_continue_with_the_shipping_address()
-        # element = self.sp.get_continue_with_the_shipping_address()
-        # if element.is_displayed():
+        if self.sp.get_continue_with_the_shipping_address().is_displayed():
+          self.sp.click_on_button_continue_with_the_shipping_address()
+        # .is_displayed():
         #     self.sp.click_on_button_continue_with_the_shipping_address()
-        # else:
-        #     self.sp.returning_customer_shipping_address()
+        else:
+             self.sp.returning_customer_shipping_address()
 
         self.sp.returning_customer_shipping_address()
         self.sp.click_on_radio_shipping_method_nextdayair()
