@@ -1356,3 +1356,157 @@
 2024-07-21 22:47:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-wishlist-button-30')*******
 2024-07-21 22:47:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//span[text()='Wishlist']")*******
 2024-07-21 22:47:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 23:02:59 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:03:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:03:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:03:03 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:03:03 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:21:46 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:21:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:21:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:21:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:21:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:21:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:22:45 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:22:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:22:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:22:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:22:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:22:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:26:19 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:26:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:26:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:26:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:26:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:26:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:27:57 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:27:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:28:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:28:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:28:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:28:03 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:29:22 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:29:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:29:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:29:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:29:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:29:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:32:10 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:32:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:32:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:32:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:32:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:32:16 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:32:16 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-21 23:32:16 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-21 23:38:38 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:38:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:38:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:38:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:38:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:38:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:38:44 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-21 23:38:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-21 23:44:12 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:44:14 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:44:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:44:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:44:16 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:44:18 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:44:19 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-21 23:44:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-21 23:44:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:44:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-21 23:52:32 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 23:52:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 23:52:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 23:52:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 23:52:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 23:52:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:52:38 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-21 23:52:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-21 23:52:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:52:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-21 23:52:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value 5 to element :('id', 'product_enteredQuantity_29')****** 
+2024-07-21 23:52:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-21 23:52:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 23:52:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:08:29 [INFO] (conftest.py:14) Logging is configured.
+2024-07-22 00:08:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-22 00:08:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-22 00:08:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-22 00:08:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-22 00:08:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:08:35 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:08:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:08:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:08:38 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:08:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:08:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:08:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:08:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value 5 to element :('id', 'product_enteredQuantity_29')****** 
+2024-07-22 00:08:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:10:59 [INFO] (conftest.py:14) Logging is configured.
+2024-07-22 00:11:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-22 00:11:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-22 00:11:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-22 00:11:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-22 00:11:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:11:05 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:11:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:11:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:11:08 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:11:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:11:11 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:11:11 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:11:12 [INFO] (SeleniumBaseClass.py:32) ********Enter value 0.7303956592966315 to element :('id', 'product_enteredQuantity_29')****** 
+2024-07-22 00:11:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:11:19 [INFO] (conftest.py:14) Logging is configured.
+2024-07-22 00:11:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-22 00:11:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-22 00:11:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-22 00:11:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-22 00:11:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:11:26 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:11:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:11:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:11:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:11:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:11:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:11:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:11:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value 0.6985825860688728 to element :('id', 'product_enteredQuantity_29')****** 
+2024-07-22 00:11:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:12:22 [INFO] (conftest.py:14) Logging is configured.
+2024-07-22 00:12:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-22 00:12:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-22 00:12:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-22 00:12:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-22 00:12:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:12:28 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:12:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:12:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:12:31 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:12:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:12:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:12:34 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:12:35 [INFO] (SeleniumBaseClass.py:32) ********Enter value 0.31642708942708264 to element :('id', 'product_enteredQuantity_29')****** 
+2024-07-22 00:12:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:22:19 [INFO] (conftest.py:14) Logging is configured.
+2024-07-22 00:22:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-22 00:22:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-22 00:22:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-22 00:22:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-22 00:22:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:22:26 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:22:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:22:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:22:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:22:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:22:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:22:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:22:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value 96 to element :('id', 'product_enteredQuantity_29')****** 
+2024-07-22 00:22:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
+2024-07-22 00:22:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-22 00:22:51 [INFO] (SeleniumBaseClass.py:32) ********Enter value CS_TSHIRT to element :('css selector', 'input#product_attribute_12')****** 
+2024-07-22 00:22:51 [INFO] (SeleniumBaseClass.py:32) ********Enter value 10000 to element :('id', 'product_enteredQuantity_29')****** 
+2024-07-22 00:22:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-29')*******
