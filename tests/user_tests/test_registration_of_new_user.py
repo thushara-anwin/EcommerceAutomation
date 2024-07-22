@@ -12,6 +12,7 @@ class Test_08_NewUserRegistration:
         self.hp.navigate_to_homepage()
         self.rp = Registration(self.driver)
 
+    @pytest.mark.smoke
     def test_user_registration_with_valid_data(self):
         self.rp.click_on_link_registration()
         self.rp.click_on_radio_male()

@@ -9,6 +9,7 @@ class Test_03_ProductCategories:
         self.hp = HomePage(self.driver)
         self.hp.navigate_to_homepage()
 
+    @pytest.mark.smoke
     def test_computer_products_navigation(self):
         self.hp.click_on_link_computers()
         element = self.hp.get_computer_products()

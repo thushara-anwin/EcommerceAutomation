@@ -21,6 +21,7 @@ class Test_015_SuccessfulOrder():
         self.sc = ShoppingCart(self.driver)
         self.sp = Shipping(self.driver)
 
+    @pytest.mark.smoke
     def test_payment_method_money_order_or_check(self):
         self.rp.returning_user_registration_login()
         self.hp.click_on_link_electronics()

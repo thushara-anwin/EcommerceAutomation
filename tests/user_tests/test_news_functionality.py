@@ -13,6 +13,7 @@ class Test_020_News():
         self.hp.navigate_to_homepage()
         self.fs = Footer(self.driver)
 
+    @pytest.mark.smoke
     def test_my_account_functionality(self):
         self.fs.click_on_link_news()
         element = self.fs.get_title_news_page()

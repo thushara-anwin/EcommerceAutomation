@@ -8,6 +8,7 @@ class Test_01_HomepageNavigation:
     def setup(self):
         self.hp = HomePage(self.driver)
 
+    @pytest.mark.smoke
     def test_homepage_navigation(self):
         self.hp.navigate_to_homepage()
         ele = self.hp.get_welcome_message()

@@ -13,6 +13,7 @@ class Test_018_ContactUs():
         self.lp = Login(self.driver)
         self.fs = Footer(self.driver)
 
+    @pytest.mark.smoke
     def test_contact_us_with_all_data(self):
         self.fs.click_on_link_contact_us()
         self.fs.enter_fullname()

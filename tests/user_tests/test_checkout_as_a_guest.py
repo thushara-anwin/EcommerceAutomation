@@ -18,6 +18,7 @@ class Test_07_CheckoutAsGuest:
         self.sc = ShoppingCart(self.driver)
         self.sp= Shipping(self.driver)
 
+    @pytest.mark.smoke
     def test_checkout_as_a_guest_user(self):
         self.hp.click_on_link_jewelry()
         self.jp.add_vintage_style_engagement_ring_to_cart()

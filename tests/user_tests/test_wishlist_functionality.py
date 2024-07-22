@@ -12,6 +12,7 @@ class Test_011_Wishlist():
         self.hp.navigate_to_homepage()
         self.cp = Clothing(self.driver)
 
+    @pytest.mark.smoke
     def test_adding_and_removing_items_to_wishlist(self):
         self.hp.click_clothing()
         self.cp.add_levi_511_jeans_to_wishlist()

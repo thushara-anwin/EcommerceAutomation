@@ -8,6 +8,7 @@ class Test_02_Search:
         self.hp = HomePage(self.driver)
         self.hp.navigate_to_homepage()
 
+    @pytest.mark.smoke
     def test_search_with_valid_data(self):
         self.hp.enter_valid_search_data()
         self.hp.click_search_button()

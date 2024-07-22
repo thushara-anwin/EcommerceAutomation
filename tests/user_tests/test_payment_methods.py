@@ -26,6 +26,7 @@ class Test_014_PaymentMethods():
         self.sp = Shipping(self.driver)
         self.rp = Registration(self.driver)
 
+    @pytest.mark.smoke
     def test_payment_method_money_order_or_check(self):
         self.rp.returning_user_registration_login()
         #self.lp.click_logout()
@@ -55,6 +56,7 @@ class Test_014_PaymentMethods():
         assert element.is_displayed()
         self.lp.click_logout()
 
+    @pytest.mark.smoke
     def test_payment_method_credit_card(self):
         self.rp.returning_user_registration_login()
         #self.lp.user_login()

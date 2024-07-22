@@ -13,6 +13,7 @@ class Test_019_NewProducts():
         self.hp.navigate_to_homepage()
         self.fs = Footer(self.driver)
 
+    @pytest.mark.smoke
     def test_my_account_functionality(self):
         self.fs.click_on_link_new_products()
         time.sleep(13)

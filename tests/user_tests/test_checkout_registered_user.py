@@ -25,6 +25,7 @@ class Test_013_CheckoutRegisteredUser():
         self.sp = Shipping(self.driver)
         self.rp = Registration(self.driver)
 
+    @pytest.mark.smoke
     def test_checkout_functionality_registeted_user(self):
         self.rp.returning_user_registration_login()
         #self.lp.click_logout()

@@ -15,6 +15,7 @@ class Test_09_TestLogin:
         #self.lp.click_link_login()
         self.rp = Registration(self.driver)
 
+    @pytest.mark.smoke
     def test_login_with_valid_credentials(self):
         self.rp.returning_user_registration()
         self.lp.click_logout()

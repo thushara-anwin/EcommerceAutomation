@@ -18,6 +18,7 @@ class Test_10_ModifyOrCancelOrder:
         self.sc= ShoppingCart(self.driver)
         self.sp = Shipping(self.driver)
 
+    @pytest.mark.smoke
     def test_user_can_modify_or_cancel_order(self):
         self.rp.returning_user_registration_login()
         #self.lp.click_logout()

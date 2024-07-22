@@ -10,6 +10,7 @@ class Test_05_Add_to_Cart:
         self.hp.navigate_to_homepage()
         self.ep = Electronics(self.driver)
 
+    @pytest.mark.smoke
     def test_adding_cellphone_to_cart(self):
         self.hp.click_on_link_electronics()
         self.ep.click_on_link_cellphone()

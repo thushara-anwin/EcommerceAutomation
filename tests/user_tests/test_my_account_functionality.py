@@ -14,6 +14,7 @@ class Test_016_MyAccount():
         self.rp = Registration(self.driver)
         self.ma = MyAccount(self.driver)
 
+    @pytest.mark.smoke
     def test_my_account_functionality(self):
         #self.lp.user_login()
         self.rp.returning_user_registration_login()

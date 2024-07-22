@@ -21,8 +21,7 @@ class Test_012_CompareProducts():
         self.rp = Registration(self.driver)
         self.fs = Footer(self.driver)
 
-
-
+    @pytest.mark.smoke
     def test_compare_products(self):
         self.rp.returning_user_registration_login()
         self.hp.click_on_link_electronics()

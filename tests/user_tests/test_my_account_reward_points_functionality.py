@@ -14,6 +14,7 @@ class Test_017_RewardPoints():
         self.rp = Registration(self.driver)
         self.ma = MyAccount(self.driver)
 
+    @pytest.mark.smoke
     def test_my_account_functionality(self):
         self.rp.returning_user_registration_login()
         self.ma.click_on_link_my_account()

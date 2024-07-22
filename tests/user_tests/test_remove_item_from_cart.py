@@ -11,6 +11,8 @@ class Test_06_RemoveFromCart:
         self.hp.navigate_to_homepage()
         self.jp = Jewelry(self.driver)
         self.sc = ShoppingCart(self.driver)
+
+    @pytest.mark.smoke
     def test_add_item_to_cart(self):
         self.hp.click_on_link_jewelry()
         self.jp.add_flower_girl_bracelet_to_cart()

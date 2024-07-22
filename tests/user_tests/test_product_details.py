@@ -12,6 +12,7 @@ class Test_04_ProductDetails:
         self.hp.navigate_to_homepage()
         self.cp = Clothing(self.driver)
 
+    @pytest.mark.smoke
     def test_if_product_details_displayed(self):
         self.hp.click_clothing()
         self.cp.click_custom_t_shirt()
