@@ -1953,3 +1953,1189 @@
 2024-07-21 19:09:05 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
 2024-07-21 19:09:06 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Password')****** 
 2024-07-21 19:09:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:11:26 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:11:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:11:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:11:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:11:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 19:11:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:11:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:11:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:11:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:11:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:11:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:11:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:11:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:11:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Checkout as Guest']")*******
+2024-07-21 19:11:35 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#BillingNewAddress_FirstName')****** 
+2024-07-21 19:11:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value Jack to element :('css selector', 'input#BillingNewAddress_LastName')****** 
+2024-07-21 19:11:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@yourstore.com to element :('css selector', 'input#BillingNewAddress_Email')****** 
+2024-07-21 19:11:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#BillingNewAddress_Company')****** 
+2024-07-21 19:11:48 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:11:48 [INFO] (SeleniumBaseClass.py:32) ********Enter value 700 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:11:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:11:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value 2345 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:11:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:11:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:11:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:11:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:11:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:11:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:11:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:11:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:11:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:11:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:11:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:11:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:11:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:11:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy559@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:11:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:11:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:11:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:11:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:11:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:11:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:11:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:11:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:11:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:11:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:11:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:11:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-18')*******
+2024-07-21 19:11:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:12:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:12:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:12:03 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:12:04 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:12:04 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:12:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:12:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:12:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:12:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:12:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.button-2.add-to-compare-list-button')*******
+2024-07-21 19:12:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:12:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:12:18 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:12:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 add-to-compare-list-button']")*******
+2024-07-21 19:12:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Compare products list')*******
+2024-07-21 19:12:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:12:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:12:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:12:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:12:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:12:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:12:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:12:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:12:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:12:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:12:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:12:46 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:12:46 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:12:46 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:12:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:12:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:12:47 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:12:48 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:12:48 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:12:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:12:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:12:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:12:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:12:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:12:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:13:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:13:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:13:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:13:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:13:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:13:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:13:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:13:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:13:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:13:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:13:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:13:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:13:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='continueshopping']")*******
+2024-07-21 19:13:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:13:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:13:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:13:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:13:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:13:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:13:48 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:13:48 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:13:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:13:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//a[@class='ico-account']")*******
+2024-07-21 19:13:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Customer info')*******
+2024-07-21 19:13:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Addresses')*******
+2024-07-21 19:13:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Orders')*******
+2024-07-21 19:13:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Downloadable products')*******
+2024-07-21 19:13:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Back in stock subscriptions')*******
+2024-07-21 19:13:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Reward points')*******
+2024-07-21 19:13:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Change password')*******
+2024-07-21 19:13:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'My product reviews')*******
+2024-07-21 19:13:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:13:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:13:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:13:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:13:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//a[@class='ico-account']")*******
+2024-07-21 19:13:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Reward points')*******
+2024-07-21 19:13:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'New products')*******
+2024-07-21 19:14:14 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'News')*******
+2024-07-21 19:14:17 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:14:17 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:14:17 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:14:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:14:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy18@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:14:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:14:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:14:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:14:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:14:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:14:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:14:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:14:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:14:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:14:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:14:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:14:27 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:14:27 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:14:27 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:14:28 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:14:28 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:14:28 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:14:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:14:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:14:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:14:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:14:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:14:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:14:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:14:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:14:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:14:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:14:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:14:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:14:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy74@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:14:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:14:34 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:14:34 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:14:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:14:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:14:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:14:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:14:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:14:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:14:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:14:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:14:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:14:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:14:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:14:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:14:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:14:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:14:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:14:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:14:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:14:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_1')*******
+2024-07-21 19:14:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:14:46 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy James to element :('css selector', 'input#CardholderName')****** 
+2024-07-21 19:14:46 [INFO] (SeleniumBaseClass.py:32) ********Enter value 378282246310005 to element :('css selector', 'input#CardNumber')****** 
+2024-07-21 19:14:46 [INFO] (SeleniumBaseClass.py:32) ********Enter value 123 to element :('css selector', 'input#CardCode')****** 
+2024-07-21 19:14:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@onclick='if (!window.__cfRLUnblockHandlers) return false; PaymentInfo.save()']")*******
+2024-07-21 19:15:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:15:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Computers')*******
+2024-07-21 19:15:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:15:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Apparel')*******
+2024-07-21 19:15:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Digital downloads')*******
+2024-07-21 19:15:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Books')*******
+2024-07-21 19:15:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:15:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Gift Cards')*******
+2024-07-21 19:15:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 19:15:16 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:15:16 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-male')*******
+2024-07-21 19:15:16 [INFO] (SeleniumBaseClass.py:32) ********Enter value Dylan to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:15:16 [INFO] (SeleniumBaseClass.py:32) ********Enter value Rodriguez to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:15:17 [INFO] (SeleniumBaseClass.py:32) ********Enter value allison70@example.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:15:17 [INFO] (SeleniumBaseClass.py:32) ********Enter value Hansen, Martin and Bradley to element :('css selector', 'input#Company')****** 
+2024-07-21 19:15:17 [INFO] (SeleniumBaseClass.py:32) ********Enter value +f*3vEUb9q to element :('css selector', 'input#Password')****** 
+2024-07-21 19:15:17 [INFO] (SeleniumBaseClass.py:32) ********Enter value +f*3vEUb9q to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:15:17 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:15:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:15:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:15:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:15:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:15:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:15:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value Apple MacBook Pro 13-inch to element :('id', 'small-searchterms')****** 
+2024-07-21 19:15:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:15:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value good morning to element :('id', 'small-searchterms')****** 
+2024-07-21 19:15:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:15:26 [INFO] (SeleniumBaseClass.py:32) ********Enter value hi to element :('id', 'small-searchterms')****** 
+2024-07-21 19:15:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:15:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:15:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:15:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:15:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:15:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:15:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:15:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:15:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:15:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:15:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:15:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:15:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', "button[name ='save']")*******
+2024-07-21 19:15:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:15:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:15:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:15:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:15:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:15:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:15:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:15:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:15:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:15:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:15:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:16:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', "Levi's 511 Jeans")*******
+2024-07-21 19:16:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-wishlist-button-30')*******
+2024-07-21 19:16:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//span[text()='Wishlist']")*******
+2024-07-21 19:16:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:18:22 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:18:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:18:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:18:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:18:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 19:18:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:18:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:18:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:18:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:18:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:18:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:18:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:18:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:18:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Checkout as Guest']")*******
+2024-07-21 19:18:31 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#BillingNewAddress_FirstName')****** 
+2024-07-21 19:18:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value Jack to element :('css selector', 'input#BillingNewAddress_LastName')****** 
+2024-07-21 19:18:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@yourstore.com to element :('css selector', 'input#BillingNewAddress_Email')****** 
+2024-07-21 19:18:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#BillingNewAddress_Company')****** 
+2024-07-21 19:18:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:18:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value 700 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:18:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:18:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value 2345 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:18:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:18:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:18:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:18:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:18:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:18:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:18:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:18:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:18:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:18:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:18:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:18:51 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:18:51 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:18:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy900@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:18:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:18:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:18:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:18:52 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:18:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:18:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:18:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:18:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:18:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:18:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:18:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:18:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-18')*******
+2024-07-21 19:18:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:18:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:18:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:18:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:18:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:18:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:18:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:19:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:19:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:19:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:19:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.button-2.add-to-compare-list-button')*******
+2024-07-21 19:19:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:19:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:19:14 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:19:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 add-to-compare-list-button']")*******
+2024-07-21 19:19:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Compare products list')*******
+2024-07-21 19:19:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:19:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:19:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:19:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:19:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:19:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:19:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:19:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:19:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:19:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:19:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:19:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:19:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:19:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:19:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:19:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:19:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:19:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:19:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:19:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:19:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:19:44 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:19:44 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:19:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:19:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:20:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:20:21 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:20:21 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:20:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:20:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:20:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:20:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:20:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:20:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:20:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:20:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:20:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:20:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='continueshopping']")*******
+2024-07-21 19:20:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:20:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:20:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:20:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:20:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:21:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:21:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:21:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:21:03 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:21:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//a[@class='ico-account']")*******
+2024-07-21 19:21:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Customer info')*******
+2024-07-21 19:21:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Addresses')*******
+2024-07-21 19:21:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Orders')*******
+2024-07-21 19:21:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Downloadable products')*******
+2024-07-21 19:21:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Back in stock subscriptions')*******
+2024-07-21 19:21:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Reward points')*******
+2024-07-21 19:21:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Change password')*******
+2024-07-21 19:21:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'My product reviews')*******
+2024-07-21 19:21:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:21:09 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:21:09 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:21:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:21:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//a[@class='ico-account']")*******
+2024-07-21 19:21:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Reward points')*******
+2024-07-21 19:21:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'New products')*******
+2024-07-21 19:21:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'News')*******
+2024-07-21 19:21:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:21:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:21:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:21:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:21:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy231@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:21:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:21:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:21:33 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:21:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:21:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:21:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:21:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:21:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:21:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:21:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:21:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:21:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:21:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:21:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:21:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:21:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:21:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:21:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:21:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:21:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:21:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:21:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:21:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:21:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:21:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:21:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:21:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:21:47 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:21:47 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:21:47 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy238@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:21:47 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:21:48 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:21:48 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:21:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:21:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:21:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:21:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:21:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:21:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:21:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:21:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:21:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:21:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:21:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:21:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:21:58 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:21:58 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:21:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:21:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:21:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:21:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_1')*******
+2024-07-21 19:21:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:22:00 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy James to element :('css selector', 'input#CardholderName')****** 
+2024-07-21 19:22:00 [INFO] (SeleniumBaseClass.py:32) ********Enter value 378282246310005 to element :('css selector', 'input#CardNumber')****** 
+2024-07-21 19:22:01 [INFO] (SeleniumBaseClass.py:32) ********Enter value 123 to element :('css selector', 'input#CardCode')****** 
+2024-07-21 19:22:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@onclick='if (!window.__cfRLUnblockHandlers) return false; PaymentInfo.save()']")*******
+2024-07-21 19:22:16 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:22:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Computers')*******
+2024-07-21 19:22:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:22:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Apparel')*******
+2024-07-21 19:22:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Digital downloads')*******
+2024-07-21 19:22:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Books')*******
+2024-07-21 19:22:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:22:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Gift Cards')*******
+2024-07-21 19:22:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 19:22:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:22:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-male')*******
+2024-07-21 19:22:31 [INFO] (SeleniumBaseClass.py:32) ********Enter value Robert to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:22:31 [INFO] (SeleniumBaseClass.py:32) ********Enter value White to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:22:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value katrinamiller@example.net to element :('css selector', 'input#Email')****** 
+2024-07-21 19:22:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value Davis-Pope to element :('css selector', 'input#Company')****** 
+2024-07-21 19:22:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value sMx3KkGf!e to element :('css selector', 'input#Password')****** 
+2024-07-21 19:22:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value sMx3KkGf!e to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:22:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:22:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:22:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:22:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:22:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:22:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:22:39 [INFO] (SeleniumBaseClass.py:32) ********Enter value Apple MacBook Pro 13-inch to element :('id', 'small-searchterms')****** 
+2024-07-21 19:22:39 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:22:40 [INFO] (SeleniumBaseClass.py:32) ********Enter value good morning to element :('id', 'small-searchterms')****** 
+2024-07-21 19:22:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:22:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value hi to element :('id', 'small-searchterms')****** 
+2024-07-21 19:22:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:22:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:22:44 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:22:44 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:22:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:22:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:22:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:22:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:22:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:22:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:22:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:22:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:22:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', "button[name ='save']")*******
+2024-07-21 19:22:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:22:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:22:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:22:51 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:22:51 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:22:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:22:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:22:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:22:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:22:52 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:22:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:23:18 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', "Levi's 511 Jeans")*******
+2024-07-21 19:23:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-wishlist-button-30')*******
+2024-07-21 19:23:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//span[text()='Wishlist']")*******
+2024-07-21 19:23:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:25:20 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:25:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:25:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:25:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:25:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 19:25:30 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:25:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:25:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:25:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:25:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:25:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:25:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:25:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:25:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:25:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Checkout as Guest']")*******
+2024-07-21 19:25:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#BillingNewAddress_FirstName')****** 
+2024-07-21 19:25:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value Jack to element :('css selector', 'input#BillingNewAddress_LastName')****** 
+2024-07-21 19:25:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@yourstore.com to element :('css selector', 'input#BillingNewAddress_Email')****** 
+2024-07-21 19:25:37 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#BillingNewAddress_Company')****** 
+2024-07-21 19:25:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:25:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value 700 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:25:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:25:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value 2345 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:25:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:25:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:25:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:25:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:25:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:25:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:25:52 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:25:52 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:25:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:26:03 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:26:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:26:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:26:05 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:26:05 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:26:06 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy21@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:26:06 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:26:06 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:26:06 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:26:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:26:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:26:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:26:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:26:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:26:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:26:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:26:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:26:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-18')*******
+2024-07-21 19:26:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:26:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:26:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:26:20 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:26:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:26:22 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:26:23 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:26:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:26:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:26:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:26:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:26:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.button-2.add-to-compare-list-button')*******
+2024-07-21 19:26:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:26:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:26:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:26:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 add-to-compare-list-button']")*******
+2024-07-21 19:26:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Compare products list')*******
+2024-07-21 19:28:27 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:28:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:28:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:28:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:28:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:28:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy756@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:28:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:28:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:28:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:28:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:28:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:28:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:28:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:28:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.button-2.add-to-compare-list-button')*******
+2024-07-21 19:28:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:28:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:28:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:28:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 add-to-compare-list-button']")*******
+2024-07-21 19:29:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Compare products list')*******
+2024-07-21 19:29:10 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:29:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:29:12 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:29:13 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:29:13 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:29:16 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:29:17 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:29:17 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:29:17 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:29:17 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:29:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:29:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:29:21 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:29:22 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:29:22 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:29:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:29:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:29:23 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:29:23 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:29:23 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:29:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:29:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:29:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:29:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:29:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:29:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:29:36 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:30:06 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:30:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:30:10 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:30:10 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:30:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:30:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:30:14 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:30:14 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:31:29 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:31:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:31:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:31:31 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:31:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:31:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy384@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:31:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:31:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:31:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:31:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:31:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:31:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:31:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:31:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:31:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:31:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:31:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:31:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:31:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='continueshopping']")*******
+2024-07-21 19:31:39 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:31:39 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:31:39 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:31:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:31:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:32:53 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:32:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:32:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:32:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:32:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:32:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy17@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:32:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:32:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:32:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:32:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:32:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//a[@class='ico-account']")*******
+2024-07-21 19:32:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Customer info')*******
+2024-07-21 19:32:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Addresses')*******
+2024-07-21 19:32:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Orders')*******
+2024-07-21 19:32:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Downloadable products')*******
+2024-07-21 19:32:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Back in stock subscriptions')*******
+2024-07-21 19:32:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Reward points')*******
+2024-07-21 19:33:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Change password')*******
+2024-07-21 19:33:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'My product reviews')*******
+2024-07-21 19:34:04 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:34:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:34:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:34:06 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:34:06 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:34:07 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy898@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:34:07 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:34:07 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:34:07 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:34:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:34:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//a[@class='ico-account']")*******
+2024-07-21 19:34:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Reward points')*******
+2024-07-21 19:34:17 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:34:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'New products')*******
+2024-07-21 19:34:39 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:34:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'News')*******
+2024-07-21 19:34:51 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:34:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:34:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:34:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:34:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:34:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy632@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:34:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:34:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:34:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:34:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:34:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:34:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:34:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:34:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:34:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:34:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:34:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:35:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:35:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:35:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:35:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:35:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:35:04 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:35:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:35:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:35:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:35:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:35:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:35:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:35:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:35:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:35:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:35:08 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:35:08 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:35:08 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:35:09 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy68@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:35:09 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:35:09 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:35:09 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:35:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:35:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:35:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:35:11 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:35:11 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:35:11 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:35:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:35:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:35:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:35:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:35:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:35:18 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:35:19 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:35:19 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:35:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:35:19 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:35:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:35:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_1')*******
+2024-07-21 19:35:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:35:21 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy James to element :('css selector', 'input#CardholderName')****** 
+2024-07-21 19:35:21 [INFO] (SeleniumBaseClass.py:32) ********Enter value 378282246310005 to element :('css selector', 'input#CardNumber')****** 
+2024-07-21 19:35:22 [INFO] (SeleniumBaseClass.py:32) ********Enter value 123 to element :('css selector', 'input#CardCode')****** 
+2024-07-21 19:35:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@onclick='if (!window.__cfRLUnblockHandlers) return false; PaymentInfo.save()']")*******
+2024-07-21 19:35:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:35:50 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:35:52 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Computers')*******
+2024-07-21 19:35:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:35:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Apparel')*******
+2024-07-21 19:35:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Digital downloads')*******
+2024-07-21 19:35:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Books')*******
+2024-07-21 19:35:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:35:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Gift Cards')*******
+2024-07-21 19:36:11 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:36:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 19:36:23 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:36:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:36:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-male')*******
+2024-07-21 19:36:26 [INFO] (SeleniumBaseClass.py:32) ********Enter value Julie to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:36:26 [INFO] (SeleniumBaseClass.py:32) ********Enter value King to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:36:26 [INFO] (SeleniumBaseClass.py:32) ********Enter value adamcole@example.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:36:27 [INFO] (SeleniumBaseClass.py:32) ********Enter value Contreras LLC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:36:27 [INFO] (SeleniumBaseClass.py:32) ********Enter value @2FT06ZfF! to element :('css selector', 'input#Password')****** 
+2024-07-21 19:36:27 [INFO] (SeleniumBaseClass.py:32) ********Enter value @2FT06ZfF! to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:36:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:36:35 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:36:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:36:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:36:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:36:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:36:39 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:36:47 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:36:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value Apple MacBook Pro 13-inch to element :('id', 'small-searchterms')****** 
+2024-07-21 19:36:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:36:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value good morning to element :('id', 'small-searchterms')****** 
+2024-07-21 19:36:50 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:36:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value hi to element :('id', 'small-searchterms')****** 
+2024-07-21 19:36:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:38:19 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:38:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:38:22 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:38:22 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:38:22 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:38:23 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy469@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:38:23 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:38:23 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:38:23 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:38:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:38:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:38:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:38:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:38:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:38:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:38:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:38:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:38:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', "button[name ='save']")*******
+2024-07-21 19:38:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:38:50 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:38:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:38:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:38:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:38:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:38:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy527@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:38:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:38:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:38:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:38:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:38:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:38:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:38:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:38:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:38:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:38:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:38:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:39:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:39:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:39:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:39:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:39:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:39:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:39:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:39:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:39:27 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:39:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:39:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:39:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:39:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:39:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy751@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:39:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:39:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:39:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:39:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:39:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:39:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:39:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:39:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:39:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:39:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:39:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:39:39 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:39:39 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:39:40 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:39:40 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:39:40 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:39:40 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:39:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:39:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:39:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:39:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:39:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:39:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:39:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:39:52 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:39:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:39:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:39:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:39:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:39:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:39:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:39:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:39:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:39:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:39:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:39:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:39:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:39:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:39:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:39:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:39:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:39:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value hello@gmail to element :('css selector', 'input#Email')****** 
+2024-07-21 19:39:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:39:59 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:40:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:40:00 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:40:00 [INFO] (SeleniumBaseClass.py:32) ********Enter value 23 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:40:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:40:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-login')*******
+2024-07-21 19:40:01 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:40:01 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Password')****** 
+2024-07-21 19:40:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[contains(text(),'Log in')]")*******
+2024-07-21 19:40:11 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:40:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', "Levi's 511 Jeans")*******
+2024-07-21 19:40:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-wishlist-button-30')*******
+2024-07-21 19:40:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//span[text()='Wishlist']")*******
+2024-07-21 19:40:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:40:56 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:40:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:40:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:40:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:40:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:40:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy4231@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:40:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:40:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:40:59 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:41:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:41:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:41:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:41:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:41:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:41:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:41:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:41:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:41:08 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:41:08 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:41:08 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:41:08 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:41:09 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:41:09 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:41:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:41:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:41:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:41:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:41:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:41:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:41:11 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:41:40 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:44:20 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:45:33 [INFO] (conftest.py:14) Logging is configured.
+2024-07-21 19:45:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:45:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:45:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:45:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 product-box-add-to-cart-button']")*******
+2024-07-21 19:45:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:45:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:45:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:45:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:45:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:45:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:45:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:45:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:45:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Checkout as Guest']")*******
+2024-07-21 19:45:42 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#BillingNewAddress_FirstName')****** 
+2024-07-21 19:45:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value Jack to element :('css selector', 'input#BillingNewAddress_LastName')****** 
+2024-07-21 19:45:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@yourstore.com to element :('css selector', 'input#BillingNewAddress_Email')****** 
+2024-07-21 19:45:43 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#BillingNewAddress_Company')****** 
+2024-07-21 19:45:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:45:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value 700 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:45:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:45:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value 2345 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:45:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:45:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:45:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:45:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:45:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:45:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:45:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:45:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:45:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:46:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:46:03 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:46:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:46:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:46:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy8806@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:46:03 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:46:04 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:46:04 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:46:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:46:04 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:46:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:46:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:46:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:46:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:46:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:46:06 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:46:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-18')*******
+2024-07-21 19:46:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:46:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:46:07 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:46:10 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:46:11 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:46:11 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:46:11 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:46:11 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy1039@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:46:11 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:46:11 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:46:12 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:46:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:46:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:46:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:46:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One M8 Android L 5.0 Lollipop')*******
+2024-07-21 19:46:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.button-2.add-to-compare-list-button')*******
+2024-07-21 19:46:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:46:14 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:46:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:46:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-2 add-to-compare-list-button']")*******
+2024-07-21 19:46:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Compare products list')*******
+2024-07-21 19:46:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:46:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:46:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:46:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:46:48 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:46:49 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:46:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:46:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:46:49 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:46:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:46:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:46:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:46:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:46:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value dadad sfdfd dgdgd dgfgfgf to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:46:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:46:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:46:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy Jack to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:46:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjack@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:46:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:46:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:46:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Contact us')*******
+2024-07-21 19:46:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#FullName')****** 
+2024-07-21 19:46:56 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'input#Email')****** 
+2024-07-21 19:46:57 [INFO] (SeleniumBaseClass.py:32) ********Enter value  to element :('css selector', 'textarea#Enquiry')****** 
+2024-07-21 19:46:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='send-email']")*******
+2024-07-21 19:47:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:47:29 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:47:29 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:47:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:47:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy7457@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:47:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:47:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:47:30 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:47:30 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:47:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:47:34 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:47:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:47:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:47:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:47:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:47:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:47:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:47:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@name='continueshopping']")*******
+2024-07-21 19:47:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Vintage Style Engagement Ring')*******
+2024-07-21 19:47:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-42')*******
+2024-07-21 19:47:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:47:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:47:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:47:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:47:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:47:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:47:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:47:54 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy7803@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:47:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:47:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:47:55 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:47:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:47:55 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//a[@class='ico-account']")*******
+2024-07-21 19:47:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Customer info')*******
+2024-07-21 19:47:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Addresses')*******
+2024-07-21 19:47:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Orders')*******
+2024-07-21 19:47:56 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Downloadable products')*******
+2024-07-21 19:47:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Back in stock subscriptions')*******
+2024-07-21 19:47:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Reward points')*******
+2024-07-21 19:47:57 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Change password')*******
+2024-07-21 19:47:58 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'My product reviews')*******
+2024-07-21 19:48:00 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:48:01 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:48:01 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:48:01 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:48:02 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy8622@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:48:02 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:48:02 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:48:02 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:48:02 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:48:03 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//a[@class='ico-account']")*******
+2024-07-21 19:48:03 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Reward points')*******
+2024-07-21 19:48:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'New products')*******
+2024-07-21 19:48:21 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'News')*******
+2024-07-21 19:48:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:48:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:48:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:48:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:48:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy5918@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:48:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:48:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:48:25 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:48:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:48:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:48:26 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:48:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:48:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:48:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:48:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:48:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:48:34 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:48:34 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:48:34 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:48:34 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:48:35 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:48:35 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:48:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:48:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:48:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:48:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:48:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:48:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:48:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:48:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:48:39 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:48:40 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:48:40 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:48:40 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:48:40 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy1563@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:48:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:48:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:48:41 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:48:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:48:41 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:48:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:48:42 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:48:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:48:43 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:48:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:48:44 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:48:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:48:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:48:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:48:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:48:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:48:50 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:48:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:48:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:48:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:48:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_1')*******
+2024-07-21 19:48:52 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:48:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy James to element :('css selector', 'input#CardholderName')****** 
+2024-07-21 19:48:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value 378282246310005 to element :('css selector', 'input#CardNumber')****** 
+2024-07-21 19:48:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value 123 to element :('css selector', 'input#CardCode')****** 
+2024-07-21 19:48:54 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@onclick='if (!window.__cfRLUnblockHandlers) return false; PaymentInfo.save()']")*******
+2024-07-21 19:49:09 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:49:12 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Computers')*******
+2024-07-21 19:49:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:49:13 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Apparel')*******
+2024-07-21 19:49:14 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Digital downloads')*******
+2024-07-21 19:49:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Books')*******
+2024-07-21 19:49:15 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:49:16 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Gift Cards')*******
+2024-07-21 19:49:20 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Custom T-Shirt')*******
+2024-07-21 19:49:23 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:49:24 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-male')*******
+2024-07-21 19:49:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value John to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:49:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value Stanley to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:49:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value bonniejones@example.org to element :('css selector', 'input#Email')****** 
+2024-07-21 19:49:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value Werner PLC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:49:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value RJRA6TyM)( to element :('css selector', 'input#Password')****** 
+2024-07-21 19:49:24 [INFO] (SeleniumBaseClass.py:32) ********Enter value RJRA6TyM)( to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:49:25 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:49:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Jewelry')*******
+2024-07-21 19:49:27 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Flower Girl Bracelet')*******
+2024-07-21 19:49:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-41')*******
+2024-07-21 19:49:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:49:28 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******
+2024-07-21 19:49:31 [INFO] (SeleniumBaseClass.py:32) ********Enter value Apple MacBook Pro 13-inch to element :('id', 'small-searchterms')****** 
+2024-07-21 19:49:31 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:49:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value good morning to element :('id', 'small-searchterms')****** 
+2024-07-21 19:49:32 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:49:32 [INFO] (SeleniumBaseClass.py:32) ********Enter value hi to element :('id', 'small-searchterms')****** 
+2024-07-21 19:49:33 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@type='submit']")*******
+2024-07-21 19:49:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:49:35 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:49:35 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:49:35 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:49:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value amy3830@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:49:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:49:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:49:36 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:49:36 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:49:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Electronics')*******
+2024-07-21 19:49:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Cell phones')*******
+2024-07-21 19:49:37 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'HTC One Mini Blue')*******
+2024-07-21 19:49:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-cart-button-19')*******
+2024-07-21 19:49:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', 'Shopping cart')*******
+2024-07-21 19:49:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#termsofservice')*******
+2024-07-21 19:49:38 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#checkout')*******
+2024-07-21 19:49:44 [INFO] (SeleniumBaseClass.py:32) ********Enter value Adel to element :('css selector', 'input#BillingNewAddress_City')****** 
+2024-07-21 19:49:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value 709 to element :('css selector', 'input#BillingNewAddress_Address1')****** 
+2024-07-21 19:49:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value Warrior ln to element :('css selector', 'input#BillingNewAddress_Address2')****** 
+2024-07-21 19:49:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value 4567 to element :('css selector', 'input#BillingNewAddress_ZipPostalCode')****** 
+2024-07-21 19:49:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value 234567543 to element :('css selector', 'input#BillingNewAddress_PhoneNumber')****** 
+2024-07-21 19:49:45 [INFO] (SeleniumBaseClass.py:32) ********Enter value 3456678789 to element :('css selector', 'input#BillingNewAddress_FaxNumber')****** 
+2024-07-21 19:49:45 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Continue']")*******
+2024-07-21 19:49:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#shippingoption_1')*******
+2024-07-21 19:49:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 shipping-method-next-step-button']")*******
+2024-07-21 19:49:46 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#paymentmethod_0')*******
+2024-07-21 19:49:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-method-next-step-button']")*******
+2024-07-21 19:49:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[@class='button-1 payment-info-next-step-button']")*******
+2024-07-21 19:49:47 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//button[text()='Confirm']")*******
+2024-07-21 19:49:51 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-register')*******
+2024-07-21 19:49:52 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'input#gender-female')*******
+2024-07-21 19:49:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value Amy to element :('css selector', 'input#FirstName')****** 
+2024-07-21 19:49:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value James to element :('css selector', 'input#LastName')****** 
+2024-07-21 19:49:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@gmail.com to element :('css selector', 'input#Email')****** 
+2024-07-21 19:49:52 [INFO] (SeleniumBaseClass.py:32) ********Enter value ABC to element :('css selector', 'input#Company')****** 
+2024-07-21 19:49:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#Password')****** 
+2024-07-21 19:49:53 [INFO] (SeleniumBaseClass.py:32) ********Enter value amyjames@123 to element :('css selector', 'input#ConfirmPassword')****** 
+2024-07-21 19:49:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#register-button')*******
+2024-07-21 19:49:53 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'a.ico-logout')*******
+2024-07-21 19:50:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('partial link text', "Levi's 511 Jeans")*******
+2024-07-21 19:50:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button#add-to-wishlist-button-30')*******
+2024-07-21 19:50:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('xpath', "//span[text()='Wishlist']")*******
+2024-07-21 19:50:05 [INFO] (SeleniumBaseClass.py:27) *********click to element :('css selector', 'button.remove-btn')*******

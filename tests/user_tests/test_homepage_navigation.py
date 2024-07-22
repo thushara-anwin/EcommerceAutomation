@@ -10,10 +10,11 @@ class Test_01_HomepageNavigation:
 
     def test_homepage_navigation(self):
         ele = self.hp.get_home_page_title()
-        txt = ele.text
-        print(txt)
+        # txt = ele.text
+        # print(txt)
         # if ele.is_displayed():
         #     assert True
         # else:
         #     assert False
+        assert ele.is_displayed()
 

@@ -2,6 +2,7 @@ import pytest
 from modules.ui.my_account.MyAccountPage import MyAccount
 from modules.ui.user_login.LoginPage import Login
 from modules.ui.home_page.HomePage import HomePage
+from modules.ui.user_registration.RegistrationPage import Registration
 
 
 @pytest.mark.usefixtures("setup_and_teardown")
@@ -10,11 +11,12 @@ class Test_016_MyAccount():
     def setup(self):
         self.hp = HomePage(self.driver)
         self.hp.navigate_to_homepage()
-        self.lp = Login(self.driver)
+        self.rp = Registration(self.driver)
         self.ma = MyAccount(self.driver)
 
     def test_my_account_functionality(self):
-        self.lp.user_login()
+        #self.lp.user_login()
+        self.rp.returning_user_registration_login()
         self.ma.click_on_link_my_account()
         element = self.ma.get_customer_info_title()
         assert element.is_displayed()
