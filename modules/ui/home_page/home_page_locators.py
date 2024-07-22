@@ -5,6 +5,7 @@ textbox_search =(By.ID,"small-searchterms")
 btn_search=(By.XPATH,"//button[@type='submit']")
 
 title_locator =(By.XPATH,"//title")
+welcome_message_locator =(By.XPATH,"//div[@class='topic-block-title']/h2")
 
 link_login =(By.LINK_TEXT,"Log in")
 link_register =(By.LINK_TEXT,"Register")

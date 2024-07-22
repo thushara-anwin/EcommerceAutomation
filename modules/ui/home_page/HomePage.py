@@ -14,6 +14,10 @@ class HomePage(SeleniumBase):
         title = self.get_element(title_locator)
         return title
 
+    def get_welcome_message(self):
+        ele = self.get_element(welcome_message_locator)
+        return ele
+
     def enter_valid_search_data(self):
         self.enter_value(valid_search_data,textbox_search)
 
