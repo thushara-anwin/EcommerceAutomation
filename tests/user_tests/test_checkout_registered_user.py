@@ -26,9 +26,9 @@ class Test_013_CheckoutRegisteredUser():
         self.rp = Registration(self.driver)
 
     def test_checkout_functionality_registeted_user(self):
-        #self.rp.returning_user_registration()
+        self.rp.returning_user_registration_login()
         #self.lp.click_logout()
-        self.lp.user_login()
+        #self.lp.user_login()
         self.hp.click_on_link_electronics()
         self.ep.click_on_link_cellphone()
         self.cp.add_htc_one_mini_blue_to_cart()

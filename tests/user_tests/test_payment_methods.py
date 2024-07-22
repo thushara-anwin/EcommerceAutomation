@@ -27,23 +27,23 @@ class Test_014_PaymentMethods():
         self.rp = Registration(self.driver)
 
     def test_payment_method_money_order_or_check(self):
-        # self.rp.returning_user_registration()
-        # self.lp.click_logout()
-        self.lp.user_login()
+        self.rp.returning_user_registration_login()
+        #self.lp.click_logout()
+        #self.lp.user_login()
         self.hp.click_on_link_electronics()
         self.ep.click_on_link_cellphone()
         self.cp.add_htc_one_mini_blue_to_cart()
         self.sc.click_on_link_shopping_cart()
         self.sc.click_on_check_box_terms_of_service()
         self.sc.click_on_button_checkout()
-        #time.sleep(1500)
+
         #self.sp.click_on_button_continue_with_the_shipping_address()
-        if self.sp.get_continue_with_the_shipping_address().is_displayed():
-          self.sp.click_on_button_continue_with_the_shipping_address()
+        # if self.sp.get_continue_with_the_shipping_address().is_displayed():
+        #   self.sp.click_on_button_continue_with_the_shipping_address()
         # .is_displayed():
         #     self.sp.click_on_button_continue_with_the_shipping_address()
-        else:
-             self.sp.returning_customer_shipping_address()
+        # else:
+        #      self.sp.returning_customer_shipping_address()
 
         self.sp.returning_customer_shipping_address()
         self.sp.click_on_radio_shipping_method_nextdayair()
@@ -56,15 +56,17 @@ class Test_014_PaymentMethods():
         self.lp.click_logout()
 
     def test_payment_method_credit_card(self):
-        # self.rp.returning_user2_registration()
-        self.lp.user_login()
+        self.rp.returning_user_registration_login()
+        #self.lp.user_login()
         self.hp.click_on_link_electronics()
         self.ep.click_on_link_cellphone()
         self.cp.add_htc_one_mini_blue_to_cart()
         self.sc.click_on_link_shopping_cart()
         self.sc.click_on_check_box_terms_of_service()
         self.sc.click_on_button_checkout()
-        self.sp.click_on_button_continue_with_the_shipping_address()
+        self.sp.returning_customer_shipping_address()
+
+        #self.sp.click_on_button_continue_with_the_shipping_address()
         self.sp.click_on_radio_shipping_method_nextdayair()
         self.sp.click_on_button_next_shipping_method()
         self.sp.click_on_radio_creditcard()
